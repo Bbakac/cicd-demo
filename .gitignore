@@ -1,2 +1,12 @@
+# MacOS sistem dosyaları
 .DS_Store
-.DS_Store
+
+# Python bytecode dosyaları
+*.pyc
+*.pyo
+__pycache__/
+
+# Coverage ve test cache dosyaları
+.coverage
+htmlcov/
+.pytest_cache/
